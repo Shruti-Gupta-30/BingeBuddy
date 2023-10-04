@@ -72,11 +72,11 @@ export function App() {
 					<div className="col-4">
 						<Logo
 							img={logoImg}
-							title="WatoWatch"
-							subtitle="Find the show of your liking"
+							title="BingeBuddy"
+							subtitle="Discover your next favourite show"
 						/>
 					</div>
-					<div className="col md-12 col-lg-4">
+					<div className="col-md-12 col-lg-4">
 						<SearchBar onSubmit={fetchByTitle} />
 					</div>
 				</div>
